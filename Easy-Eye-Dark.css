@@ -1,0 +1,107 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-link		{ color: #bee9e8; }
+span.cm-number		{ color: #bee9e8; }
+span.cm-string		{ color: #bee9e8; }
+
+span.cm-builtin     { color: #f6f9fa; }
+span.cm-def			{ color: #f6f9fa; }
+span.cm-keyword		{ color: #f6f9fa; }
+span.cm-operator	{ color: #f6f9fa; }
+span.cm-qualifier	{ color: #f6f9fa; }
+span.cm-tag			{ color: #f6f9fa; }
+
+span.cm-attribute	{ color: #e0aaff; }
+span.cm-variable	{ color: #e0aaff; }
+
+span.cm-atom		{ color: #b3ddff; }
+span.cm-comment		{ color: #69879a; }
+span.cm-error		{ color: #fcd2af; }
+span.cm-property	{ color: #a4c3b2; }
+
+span.cm-string-2    { color: #fcd2af; }
+span.cm-variable-2	{ color: #fcd2af; }
+span.cm-variable-3	{ color: #fcd2af; }
+span.cm-header      { color: #fcd2af; }
+
+span.cm-bracket		{ color: #aac2d0; }
+span.cm-meta		{ color: #aac2d0; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.35;
+}
+
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+	background: #01161e;
+	color: #a1cb84;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #00ebff !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #f5cb5c !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #01161e;
+	border-right: 0;
+}
+
+.CodeMirror-linenumber {
+	color: #dee2e6;
+}
+
+.CodeMirror-selected {
+	background: #ced4da !important;
+}
+
+/* Matching */
+
+
+.CodeMirror-matchingbracket {
+    background: transparent !important;
+	border-bottom: 3px solid #52b788 !important;
+    color: #f6f9fa !important;
+}
+
+.CodeMirror-matchingtag {
+    background: transparent !important;
+	border-bottom: 3px solid #52b788 !important;
+}
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #f6f9fa !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #13181B !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #ba9cff;
+	background-color: #000 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+	color: #f6f9fa;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #181e21;
+}
+
+#image-holder {
+    color: #a1cb84;
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Easy Eye Dark",
+    "name": "easy-eye-dark",
+    "description": "Easy Eye Dark is a Brackets theme that is designed to reduce strain on the eyes and improve readability for developers. It features a dark color scheme with high contrast between text and background, as well as subtle syntax highlighting to make it easier to identify different code elements. This theme is perfect for developers who spend long hours coding, as it can help reduce fatigue and improve productivity.",
+    "version": "1.0.1",
+    "author": "ArunyaGoojar (https://github.com/ArunyaGoojar)",
+    "homepage": "https://github.com/ArunyaGoojar/Easy-Eye-Dark-Brackets-Theme",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "Easy-Eye-Dark.css",
+        "dark": true
+    }
+}
