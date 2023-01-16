@@ -4,25 +4,25 @@ span.cm-link		{ color: #bee9e8; }
 span.cm-number		{ color: #bee9e8; }
 span.cm-string		{ color: #bee9e8; }
 
-span.cm-builtin     { color: #f1faee; }
-span.cm-def			{ color: #f1faee; }
-span.cm-keyword		{ color: #f1faee; }
+span.cm-builtin     { color: #b6ccfe; }
+span.cm-def			{ color: #c9e4ca; }
+span.cm-keyword		{ color: #93e1d8; }
 span.cm-operator	{ color: #f1faee; }
 span.cm-qualifier	{ color: #f1faee; }
-span.cm-tag			{ color: #f1faee; }
+span.cm-tag			{ color: #c9e3b4; }
 
 span.cm-attribute	{ color: #e0b1cb; }
-span.cm-variable	{ color: #e0b1cb; }
+span.cm-variable	{ color: #9ceaef; }
 
 span.cm-atom		{ color: #b3ddff; }
-span.cm-comment		{ color: #eff6e0; }
+span.cm-comment		{ color: rgb(153,177,195,0.5); }
 span.cm-error		{ color: #f79d65; }
 span.cm-property	{ color: #c9cba3; }
 
-span.cm-string-2    { color: #f79d65; }
+span.cm-string-2    { color: #e0e1dd; }
 span.cm-variable-2	{ color: #f79d65; }
-span.cm-variable-3	{ color: #f79d65; }
-span.cm-header      { color: #f79d65; }
+span.cm-variable-3	{ color: #ffa62b; }
+span.cm-header      { color: #e0aaff; }
 
 span.cm-bracket		{ color: #bee9e8; }
 span.cm-meta		{ color: #bee9e8; }
@@ -59,9 +59,14 @@ span.cm-meta		{ color: #bee9e8; }
 }
 
 .CodeMirror-selected {
-	background: #0d1b2a !important;
+	background: #4f6d7a !important;
 }
-
+.CodeMirror .CodeMirror-selected {
+    background: rgb(79,109,122,0.6);
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: #4f6d7a;
+}
 /* Matching */
 
 
@@ -83,11 +88,11 @@ span.cm-meta		{ color: #bee9e8; }
 }
 
 .CodeMirror-activeline-background {
-	background: #272B31 !important;
+	background: #2f4550 !important;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-	color: #ba9cff;
+	color: #ffffff;
 	background-color: #000 !important;
 }
 
