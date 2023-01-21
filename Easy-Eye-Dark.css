@@ -27,7 +27,6 @@ span.cm-header      { color: #99b1c3; }
 span.cm-bracket		{ color: #c0d6df; }
 span.cm-meta		{ color: #b6ccfe; }
 
-
 /* MISC ---------------------------------------------------------------------- */
 
 .CodeMirror {
@@ -57,18 +56,17 @@ span.cm-meta		{ color: #b6ccfe; }
 .CodeMirror-linenumber {
 	color: rgba(255, 255, 255, 0.3);
 }
-
+/* selection of code */
 .CodeMirror-selected {
-	background: #4f6d7a !important;
+	background: #2f4550;
 }
 .CodeMirror .CodeMirror-selected {
-    background: rgb(79,109,122,0.6);
+    background: rgba(47, 69, 80, 0.35);
 }
 .CodeMirror-focused .CodeMirror-selected {
-    background: #668aa6;
+    background: #2f4550;
 }
 /* Matching */
-
 
 .CodeMirror-matchingbracket {
     background: transparent !important;
@@ -93,7 +91,7 @@ span.cm-meta		{ color: #b6ccfe; }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
 	color: #ffffff;
-	background-color: #000 !important;
+	background-color: #2f4550 !important;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
